@@ -1,0 +1,10 @@
+Vivo V23e//LCD//ART//Kirin//16GB//GALILEO//LithiumV1//DaBo//6.1inch//SONY//38//6//DIENTHOAI0
+Sam Sung A12//LCD//Tele//ABD//8GB//QZSS//Li-Po//Kinh//6.1inch//VIVO//61//3//DIENTHOAI1
+Vivo V23e//LCD//ToF//ABD//128GB//4G//Ni-MH//Thep//6.5inch//XIAOMI//60//2//DIENTHOAI2
+Xiomi 11T//Super LCD//Macro//ABD//32GB//4G//Ni-MH//Liquidmorphium//5.8inch//LG//62//0//DIENTHOAI3
+Xiomi 11T//IPS Quantun//Tele//Exynos//512GB//GLONASS//Lithium Lon//Kinh//6.1inch//GOOOGLE//31//4//DIENTHOAI4
+Xiomi Redmi 10//TFT-LCD//Tele//Snapdragon//512GB//4G//Li-Pov2//Nhua//6.1inch//GOOOGLE//89//1//DIENTHOAI5
+Sam Sung A12//ClearBlack//PQA//ABD//32GB//BEIDOU//Ni-MH//Kinh//5.8inch//XIAOMI//86//1//DIENTHOAI6
+Vivo V23e//LED-backlit//Macro//TTQ//256GB//GPS//LithiumV1//Liquidmorphium//6.5inch//SAMSUNG//32//0//DIENTHOAI7
+Xiomi 11T//Super LCD//MonoChrome//Snapdragon//512GB//QZSS//Lithium Lon//Liquidmorphium//6.5inch//XIAOMI//33//2//DIENTHOAI8
+Xiomi 11T//Super LCD//OFF//Snapdragon//16GB//GPS//Lithium Lon//Nhua//6.5inch//LG//85//5//DIENTHOAI9
