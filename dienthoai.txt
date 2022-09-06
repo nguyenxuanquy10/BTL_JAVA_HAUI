@@ -1,10 +1,50 @@
-Vivo V23e//LCD//ART//Kirin//16GB//GALILEO//LithiumV1//DaBo//6.1inch//SONY//38//6//DIENTHOAI0
-Sam Sung A12//LCD//Tele//ABD//8GB//QZSS//Li-Po//Kinh//6.1inch//VIVO//61//3//DIENTHOAI1
-Vivo V23e//LCD//ToF//ABD//128GB//4G//Ni-MH//Thep//6.5inch//XIAOMI//60//2//DIENTHOAI2
-Xiomi 11T//Super LCD//Macro//ABD//32GB//4G//Ni-MH//Liquidmorphium//5.8inch//LG//62//0//DIENTHOAI3
-Xiomi 11T//IPS Quantun//Tele//Exynos//512GB//GLONASS//Lithium Lon//Kinh//6.1inch//GOOOGLE//31//4//DIENTHOAI4
-Xiomi Redmi 10//TFT-LCD//Tele//Snapdragon//512GB//4G//Li-Pov2//Nhua//6.1inch//GOOOGLE//89//1//DIENTHOAI5
-Sam Sung A12//ClearBlack//PQA//ABD//32GB//BEIDOU//Ni-MH//Kinh//5.8inch//XIAOMI//86//1//DIENTHOAI6
-Vivo V23e//LED-backlit//Macro//TTQ//256GB//GPS//LithiumV1//Liquidmorphium//6.5inch//SAMSUNG//32//0//DIENTHOAI7
-Xiomi 11T//Super LCD//MonoChrome//Snapdragon//512GB//QZSS//Lithium Lon//Liquidmorphium//6.5inch//XIAOMI//33//2//DIENTHOAI8
-Xiomi 11T//Super LCD//OFF//Snapdragon//16GB//GPS//Lithium Lon//Nhua//6.5inch//LG//85//5//DIENTHOAI9
+Sam Sung A12//LED-backlit//ART//NextTook//16GB//QZSS//Lithium Polymer//Thep//6.5inch//XIAOMI//35//0//DIENTHOAI0
+Xiomi 11T//Super LCD//Tele//Snapdragon//1024GB//NFC//LithiumV1//Thep//6.5inch//GOOOGLE//50//0//DIENTHOAI1
+Xiomi 11T//ClearBlack//OFF//MediaTek//1024GB//NFC//LithiumV1//DaBo//6.1inch//LG//85//4//DIENTHOAI2
+Sam Sung A12//LED-backlit//Macro//Kirin//256GB//NFC//Ni-MH//Liquidmorphium//6.1inch//NOKIA//34//6//DIENTHOAI3
+Iphone XR//Super LCD//OFF//Exynos//16GB//GLONASS//Li-Po//Thep//5.8inch//NOKIA//59//0//DIENTHOAI4
+Sam Sung A12//LCD//ART//Snapdragon//32GB//QZSS//Lithium Lon//Kinh//6.1inch//VIVO//98//5//DIENTHOAI5
+Iphone XR//IPS LCD//PQA//Snapdragon//256GB//BEIDOU//Lithium Polymer//Go//6.1inch//XIAOMI//57//0//DIENTHOAI6
+Xiomi Redmi 10//ClearBlack//Tele//NextTook//8GB//GLONASS//Li-Po//Go//6.5inch//LG//49//0//DIENTHOAI7
+Iphone XR//TFT-LCD//Macro//Kirin//32GB//QZSS//LonL//Go//6.1inch//SAMSUNG//89//4//DIENTHOAI8
+Xiomi Redmi 10//IPS Quantun//ToF//TTQ//16GB//GALILEO//LithiumV1//Liquidmorphium//6.5inch//GOOOGLE//64//3//DIENTHOAI9
+OPPO A95//LCD//Macro//Kirin//8GB//4G//Li-Po//DaBo//5.8inch//XIAOMI//23//6//DIENTHOAI10
+Xiomi Redmi 10//IPS Quantun//PQA//Kirin//16GB//4G//Li-Po//Gom//6.5inch//NOKIA//95//3//DIENTHOAI11
+Xiomi 11T//TFT-LCD//ToF//Snapdragon//1024GB//NFC//LonL//Nhua//6.5inch//SAMSUNG//59//6//DIENTHOAI12
+Vivo V23e//IPS Quantun//OFF//MediaTek//256GB//GALILEO//Li-Pov2//Go//6.5inch//SONY//17//4//DIENTHOAI13
+OPPO A95//TFT-LCD//Macro//MediaTek//512GB//GALILEO//Li-Pov2//Liquidmorphium//5.8inch//GOOOGLE//74//2//DIENTHOAI14
+Vivo V23e//ClearBlack//MonoChrome//MediaTek//1024GB//GALILEO//LithiumV1//Nhua//5.8inch//VIVO//87//4//DIENTHOAI15
+Iphone XR//IPS Quantun//MonoChrome//Snapdragon//1024GB//4G//Li-Po//Liquidmorphium//5.8inch//GOOOGLE//6//5//DIENTHOAI16
+Vivo V23e//ClearBlack//ToF//NextTook//32GB//4G//LonL//Gom//6.1inch//VIVO//91//1//DIENTHOAI17
+Vivo V23e//IPS LCD//Tele//Exynos//8GB//BEIDOU//Li-Po//DaBo//5.8inch//GOOOGLE//0//2//DIENTHOAI18
+Sam Sung A12//IPS LCD//ART//MediaTek//16GB//GLONASS//LithiumV1//DaBo//5.8inch//GOOOGLE//2//5//DIENTHOAI19
+Xiomi 11T//Super LCD//PQA//ABD//32GB//4G//Lithium Polymer//Liquidmorphium//5.8inch//NOKIA//11//0//DIENTHOAI20
+Sam Sung A12//ClearBlack//PQA//Kirin//512GB//GPS//Lithium Lon//Go//6.1inch//VIVO//84//3//DIENTHOAI21
+OPPO A16K//Super LCD//ART//Snapdragon//512GB//NFC//Lithium Lon//DaBo//6.5inch//GOOOGLE//48//2//DIENTHOAI22
+Xiomi 11T//TFT-LCD//Tele//MediaTek//128GB//QZSS//Lithium Polymer//Liquidmorphium//6.1inch//XIAOMI//9//5//DIENTHOAI23
+Xiomi Redmi 10//IPS LCD//Macro//Exynos//32GB//QZSS//Lithium Polymer//Go//5.8inch//LG//11//3//DIENTHOAI24
+Xiomi Redmi 10//IPS Quantun//Macro//Exynos//512GB//GALILEO//LonL//Kinh//6.1inch//XIAOMI//65//0//DIENTHOAI25
+OPPO A16K//LED-backlit//ART//Exynos//8GB//GLONASS//Li-Po//Thep//6.1inch//VIVO//32//1//DIENTHOAI26
+Xiomi Redmi 10//ClearBlack//ART//Exynos//512GB//BEIDOU//Lithium Polymer//Kinh//6.1inch//XIAOMI//88//0//DIENTHOAI27
+Vivo V23e//LCD//OFF//MediaTek//16GB//BEIDOU//Li-Pov2//Gom//5.8inch//NOKIA//42//5//DIENTHOAI28
+OPPO A95//IPS LCD//ART//Kirin//512GB//QZSS//Lithium Lon//Gom//5.8inch//SAMSUNG//36//1//DIENTHOAI29
+Xiomi 11T//TFT-LCD//MonoChrome//ABD//16GB//4G//Ni-MH//Liquidmorphium//6.1inch//XIAOMI//30//4//DIENTHOAI30
+Iphone XR//TFT-LCD//ART//ABD//512GB//QZSS//Li-Pov2//Gom//5.8inch//SAMSUNG//82//5//DIENTHOAI31
+Xiomi Redmi 10//ClearBlack//OFF//Exynos//8GB//GPS//Lithium Polymer//Gom//5.8inch//SONY//42//4//DIENTHOAI32
+Xiomi 11T//IPS Quantun//Tele//Snapdragon//1024GB//BEIDOU//Li-Po//Kinh//6.1inch//NOKIA//10//4//DIENTHOAI33
+Vivo V23e//IPS Quantun//Tele//Snapdragon//1024GB//GLONASS//Lithium Polymer//Kinh//6.1inch//GOOOGLE//46//3//DIENTHOAI34
+Sam Sung A12//TFT-LCD//PQA//Kirin//512GB//BEIDOU//Ni-MH//Nhua//6.5inch//LG//29//1//DIENTHOAI35
+Xiomi Redmi 10//ClearBlack//ART//Exynos//8GB//4G//Li-Po//Kinh//6.1inch//LG//83//3//DIENTHOAI36
+OPPO A16K//ClearBlack//Macro//MediaTek//512GB//GALILEO//Lithium Polymer//Kinh//6.1inch//LG//43//1//DIENTHOAI37
+Sam Sung A12//LED-backlit//Macro//ABD//512GB//GLONASS//LonL//Thep//6.5inch//XIAOMI//47//5//DIENTHOAI38
+OPPO A16K//Super LCD//ToF//Kirin//16GB//GALILEO//Lithium Lon//Kinh//6.5inch//SONY//40//2//DIENTHOAI39
+Xiomi 11T//LCD//OFF//NextTook//128GB//GALILEO//Lithium Polymer//Gom//6.5inch//SAMSUNG//78//4//DIENTHOAI40
+OPPO A16K//Super LCD//ToF//Kirin//8GB//NFC//Li-Po//Thep//6.5inch//SAMSUNG//86//5//DIENTHOAI41
+OPPO A95//TFT-LCD//ToF//NextTook//512GB//GLONASS//Lithium Lon//Gom//6.1inch//NOKIA//68//5//DIENTHOAI42
+Xiomi Redmi 10//IPS LCD//PQA//NextTook//32GB//GPS//Lithium Lon//Liquidmorphium//6.5inch//SONY//50//6//DIENTHOAI43
+Xiomi 11T//IPS Quantun//ART//Kirin//16GB//4G//LonL//Gom//6.5inch//SAMSUNG//4//0//DIENTHOAI44
+Xiomi 11T//Super LCD//Tele//Exynos//16GB//NFC//LithiumV1//Thep//6.5inch//VIVO//80//5//DIENTHOAI45
+Sam Sung A12//ClearBlack//PQA//TTQ//512GB//4G//Lithium Lon//Thep//6.5inch//GOOOGLE//0//3//DIENTHOAI46
+Xiomi Redmi 10//ClearBlack//Macro//Kirin//256GB//NFC//LithiumV1//Nhua//5.8inch//VIVO//10//0//DIENTHOAI47
+Xiomi 11T//TFT-LCD//PQA//MediaTek//256GB//BEIDOU//Ni-MH//Gom//6.1inch//SAMSUNG//99//4//DIENTHOAI48
+Xiomi 11T//Super LCD//ART//MediaTek//32GB//GLONASS//Lithium Lon//Go//6.5inch//SONY//78//3//DIENTHOAI49

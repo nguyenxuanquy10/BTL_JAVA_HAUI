@@ -28,7 +28,7 @@ public class  ThaoTacJDBC{
     public void LayDl(ArrayList <DienThoai> dienThoais) throws SQLException {
         Statement statement = connection.createStatement();
         String sql_LayDl = "select tendt, manhinh, camera,cpu,bonho,ketnoi,pin," +
-                "                ,chatlieu,kichthuoc,hang,soluongmua,gia,id" +
+                "                chatlieu,kichthuoc,hang,soluongmua,gia,id" +
                 "                from dienthoai ";
         ResultSet dienThoaisSet = statement.executeQuery(sql_LayDl);
         boolean flat = true;
@@ -71,7 +71,7 @@ public class  ThaoTacJDBC{
             preparedStatement1.setInt(11, dienthoai.getSoLuongMua());
             preparedStatement1.setInt(12, dienthoai.getGia()); 
             preparedStatement1.setString(13, dienthoai.getId());
-            int k1 = preparedStatement1.executeUpdate();
+             preparedStatement1.executeUpdate();
 
         }
     }

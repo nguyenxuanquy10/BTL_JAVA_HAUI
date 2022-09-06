@@ -90,6 +90,17 @@ import java.sql.*;
  		}
  	}
  	
+ // loc theo ten san pham 
+	  public  void locTheoTen(String manHinh) {
+	    	ArrayList <DienThoai> result=new ArrayList<>();
+	    	for(int i=0;i<danhsach.size();i++) {
+	    		if(danhsach.get(i).getManHinh().equals(manHinh)) {
+	    			result.add(danhsach.get(i));
+	    		}
+	    	}
+	    	System.out.println("---Danh sach dien thoai theo hang ---"); 
+	    	result.forEach(System.out::println);
+	    }
  	// loc theo man hinh 
  		  public  void locTheoManHinh(String manHinh) {
  		    	ArrayList <DienThoai> result=new ArrayList<>();
@@ -226,19 +237,20 @@ import java.sql.*;
  	        for(int i = 0; i < danhsach.size(); i++)
  	        {
  	            String key = danhsach.get(i).getHang();
+ 	            int soluongBan=danhsach.get(i).getSoLuongMua();
  	            if(hp.containsKey(key))
  	            {
  	                int freq = hp.get(key);
- 	                freq++;
+ 	                freq+=soluongBan; 
  	                hp.put(key, freq);
  	            }
  	            else
  	            {
- 	                hp.put(key, 1);
+ 	                hp.put(key,soluongBan);
  	            }
  	        }
  	         
- 	        // find max frequency.
+ 	        // tim so luong ban nhieu nhat 
  	        int max_count = 0;
  	        String res ="";
  	         
@@ -367,8 +379,6 @@ import java.sql.*;
     	 try {
     		 jdbc.LayDl(danhsach);
     		 System.out.println("-- Lay thanh cong --"); 
-    		 System.out.println("-- Danh sach dien thoai --"); 
-    		 danhsach.forEach(System.out::println);
     	 }
     	 catch(SQLException e) {
     		 System.out.println(e);
@@ -430,7 +440,20 @@ import java.sql.*;
      }
  // Doc du lieu tu  file text
      public void docDuLieuFileText() {
-    	 
+    	 boolean check=true; 
+    	 try {
+    		 thaotacFile.DocFile(danhsach);
+    	 }
+    	catch(Exception e) {
+    		 check=false; 
+    		System.out.println(e);
+    	}
+    	 if(check==true) {
+    		 System.out.println("-- Doc du lieu vao file text thanh cong --");
+    	 }
+    	 else {
+    		 System.out.println("-- Doc du lieu vao file text that bai --");
+    	 }
      }
  // Ghi du lieu  vao file text
      public void ghiDuLieuFileText() {
@@ -489,8 +512,8 @@ import java.sql.*;
      		switch(n) {
  	        	case 1:{
  	        	QuanLyDienThoai.menuLocSanPham();
- 	       		int n1=10;
- 	       		while(n1!=9) {
+ 	       		int n1=11;
+ 	       		while(n1!=10) {
  	       			System.out.println("Nhap lua chon cua ban: "); 
  	               	n1=sc.nextInt();
  	       			switch(n1) {
@@ -541,8 +564,14 @@ import java.sql.*;
  	           			System.out.println("Nhap ten kich thuoc can loc");
  	           			String hang=sc.nextLine();
  	           			this.locTheoKichThuoc(hang);
+ 	           		case 9: 
+ 	           			sc.nextLine(); 
+ 	           			System.out.println("Nhap ten san pham can loc "); 
+ 	           			String tensp=sc.nextLine(); 
+ 	           			this.locTheoTen(tensp);
+ 	           			break; 
  	           		default:{
- 	           			System.out.println("9.Thoat"); 
+ 	           			System.out.println("-- Thoai chuong trinh --"); 
  	           			break;
  	           		}
  	           		}
@@ -665,7 +694,8 @@ import java.sql.*;
  	    	System.out.println("6.Loc theo loai chat lieu");
  	    	System.out.println("7.Loc theo loai kich thuoc");
  	    	System.out.println("8.Loc theo hang san xuat");
- 	    	System.out.println("9.Thoat chuong trinh");
+ 	        System.out.println("9.Loc theo ten san pham");
+ 	    	System.out.println("10.Thoat chuong trinh");
  	    }
  	    public static void menuSanPham() {
  	    	System.out.println("1.Lay san pham qua id");

@@ -15,31 +15,33 @@ import java.util.ArrayList;
 
 public class ExcelWriter {
 
+	// Tao ten cac cot trong file excel 
     private  String[] columns = { "Ten dien thoai", "Man Hinh", "Camera","Cpu","Bo nho","Ket noi","Pin","Chat lieu","Kich thuoc","Hang","So luong mua","Gia","Id"};
 
+    // Tao ArrayList de luu danh sach dien thoai
     private  ArrayList<DienThoai> dienthoais ;
 
-//    private  Workbook workbook; 
-  
     
    public  ExcelWriter()throws IOException, InvalidFormatException{
 //	   workbook = new XSSFWorkbook();
 	   dienthoais=new ArrayList<>();
    }
    
+   //Phuong thuc truyen tat ca du lieu vao arraylist trong class 
    public void layDuLieu(ArrayList<DienThoai> ds) {
 	   ds.forEach((dienthoai)->{dienthoais.add(dienthoai);});
 	  
    }
    
+   // Phuong thuc ghi vao file excel 
    public void ghiFileExcel() throws IOException, InvalidFormatException{
 	   Workbook workbook=new XSSFWorkbook();
 	   CreationHelper createHelper = workbook.getCreationHelper();
 
-       // Create a Sheet
+       // Tao sheet trong file excel 
        Sheet sheet = workbook.createSheet("DienThoai");
 
-       // Create a Font for styling header cells
+       // tao style cho ten cot trong sheet 
        Font headerFont = workbook.createFont();
        headerFont.setBold(true);
        headerFont.setFontHeightInPoints((short) 14);
@@ -58,50 +60,49 @@ public class ExcelWriter {
            cell.setCellValue(columns[i]);
            cell.setCellStyle(headerCellStyle);
        }
-       // Cell Style for formatting Date
-       //CellStyle dateCellStyle = workbook.createCellStyle();
-       //dateCellStyle.setDataFormat(createHelper.createDataFormat().getFormat("dd-MM-yyyy"));
+   
 
        // Create Other rows and cells with employees data
+       // Tao hang va o khac voi du lieu la dienthoai 
        int rowNum = 1;
        for(DienThoai dienthoai: dienthoais) {
-           Row row = sheet.createRow(rowNum++);
-
-          
+           Row row = sheet.createRow(rowNum++);   
            row.createCell(0)
-           .setCellValue(dienthoai.getId());
-           row.createCell(1)
            .setCellValue(dienthoai.getTendt());
-           row.createCell(2)
+           row.createCell(1)
            .setCellValue(dienthoai.getManHinh());
-           row.createCell(3)
+           row.createCell(2)
            .setCellValue(dienthoai.getCamera());
-           row.createCell(4)
+           row.createCell(3)
            .setCellValue(dienthoai.getCpu());
-           row.createCell(5)
+           row.createCell(4)
            .setCellValue(dienthoai.getBoNho());
-           row.createCell(6)
+           row.createCell(5)
            .setCellValue(dienthoai.getKetNoi());
-           row.createCell(7)
+           row.createCell(6)
            .setCellValue(dienthoai.getPin());
-           row.createCell(8)
+           row.createCell(7)
            .setCellValue(dienthoai.getChatLieu());
-           row.createCell(9)
+           row.createCell(8)
            .setCellValue(dienthoai.getKichThuoc());
-           row.createCell(10)
+           row.createCell(9)
            .setCellValue(dienthoai.getHang());
+           row.createCell(10)
+           .setCellValue(dienthoai.getSoLuongMua());
            row.createCell(11)
            .setCellValue(dienthoai.getGia());
            row.createCell(12)
            .setCellValue(dienthoai.getId());
        }
 
-       // Resize all columns to fit the content size
+
+       // thay doi tat ca kich cua hang cho vua content size 
        for(int i= 0; i < columns.length; i++) {
            sheet.autoSizeColumn(i);
        }
 
-       // Write the output to a file
+ 
+       // viet output vao file 
        FileOutputStream fileOut = new FileOutputStream("dienthoai.xlsx");
        workbook.write(fileOut);
        fileOut.close();
